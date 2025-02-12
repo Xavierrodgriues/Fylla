@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fylla</title>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.20/dist/lenis.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+</head>
+
+<body class="">
+    <main class="max-w-screen-xl border-1 m-10 mx-auto px-5">
+        <!-- Navbar -->
+        <nav class="py-6 border-b bg-white">
+            <div class="flex justify-between items-center">
+                <h1 class="text-xl font-bold">Fylla</h1>
+                <div class="hidden md:flex gap-5 text-xs uppercase items-center">
+                    <span>Home</span>
+                    <span>Services</span>
+                    <span>Studio</span>
+                    <span>Blog</span>
+                    <span>Shop</span>
+                    <span>Pages</span>
+                    <span>Cart (0)</span>
+                    <button class="bg-black text-white px-6 py-2 rounded-sm">LET'S TALK</button>
+                    <span>|</span>
+                    <span class="border rounded-full px-2 py-1">LN</span>
+                    <span class="border rounded-full px-2 py-1">IN</span>
+                    <span class="border rounded-full px-2 py-1">FB</span>
+                </div>
+                <button class="md:hidden text-xl">&#9776;</button>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="px-5 mt-10 text-center md:text-left">
+            <h6 class="text-sm opacity-60">ABOUT US</h6>
+            <h1 class="text-4xl md:text-6xl font-semibold font-thin tracking-tight leading-tight">Creative Studio</h1>
+            <h1 class="text-4xl md:text-6xl font-semibold font-thin tracking-tight leading-tight">that inspires.</h1>
+            <div class="w-full h-60 md:h-[80vh] bg-cover bg-center rounded-xl mt-10" 
+                 style="background-image: url('hero.png');"></div>
+        </section>
+
+        <!-- Our Values -->
+        <section class="px-5 py-20 mt-10">
+            <div class="flex flex-col md:flex-row">
+                <div class="sticky top-5 md:w-1/2 bg-white p-5">
+                    <h6 class="text-sm opacity-60">OUR VALUES</h6>
+                    <h1 class="text-3xl md:text-5xl font-thin font-semibold tracking-tight leading-tight">
+                        Our vision is to connect
+                    </h1>
+                    <h1 class="text-3xl md:text-5xl font-thin font-semibold tracking-tight leading-tight">
+                        with the world through innovation.
+                    </h1>
+                    <button class="bg-black text-white px-6 py-2 rounded-sm mt-6">OUR SERVICES</button>
+                </div>
+                <div class="w-full md:w-1/2 space-y-10 mt-10 md:mt-0 md:pl-10">
+                    <div class="flex items-center gap-4">
+                        <img class="w-12 h-12 md:w-16 md:h-16" src="i1.png" alt="Vision">
+                        <div>
+                            <h1 class="text-lg md:text-xl font-bold opacity-60">VISION</h1>
+                            <p class="leading-7 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, velit.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex items-center gap-4">
+                        <img class="w-12 h-12 md:w-16 md:h-16" src="i2.png" alt="Innovation">
+                        <div>
+                            <h1 class="text-lg md:text-xl font-bold opacity-60">INNOVATION</h1>
+                            <p class="leading-7 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, velit.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flex items-center gap-4">
+                        <img class="w-12 h-12 md:w-16 md:h-16" src="i3.png" alt="Connection">
+                        <div>
+                            <h1 class="text-lg md:text-xl font-bold opacity-60">CONNECTION</h1>
+                            <p class="leading-7 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, velit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-30">
+        </section>
+
+        <!-- Work Section -->
+        <section class="px-5">
+            <div class="md:w-1/2 mb-10">
+                <h6 class="text-sm opacity-60">WORK</h6>
+                <h1 class="text-3xl md:text-5xl font-thin font-semibold tracking-tight leading-tight">Our branding</h1>
+                <h1 class="text-3xl md:text-5xl font-thin font-semibold tracking-tight leading-tight">success stories.</h1>
+            </div>
+
+            <hr class="mt-10">
+
+            <!-- Work Items -->
+            <div class="flex flex-col md:flex-row items-center mt-10">
+                <div class="w-full md:w-1/2 text-center md:text-left">
+                    <h2 class="text-3xl font-thin">DANCING</h2>
+                    <h2 class="text-3xl font-thin">STARS</h2>
+                    <div class="pt-5 flex flex-col items-center md:items-start gap-3 tracking-tighter">
+                        <h6 class="text-xs opacity-60">CONTENT</h6>
+                        <h6 class="text-xs opacity-60">DESIGN</h6>
+                        <h6 class="text-xs opacity-60">VIDEO</h6>
+                    </div>
+                    <div class="mt-4">
+                        <span class="border rounded-md px-3 py-1 text-xs opacity-70">VIEW PROJECT</span>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 p-5">
+                    <img class="w-full rounded-lg" src="girl.png" alt="">
+                </div>
+            </div>
+
+            <hr class="mt-10">
+
+            <div class="flex flex-col md:flex-row items-center mt-10">
+                <div class="w-full md:w-1/2 text-center md:text-left">
+                    <h6 class="text-xs opacity-60">CONTENT, DESIGN</h6>
+                    <h2 class="text-3xl pt-3 font-thin">ENJOY</h2>
+                    <h2 class="text-3xl font-thin">SILENCE</h2>
+                    <div class="pt-5 flex flex-col items-center md:items-start gap-3 tracking-tighter">
+                        <h6 class="text-xs opacity-60">CONTENT</h6>
+                        <h6 class="text-xs opacity-60">DESIGN</h6>
+                    </div>
+                    <div class="mt-4">
+                        <span class="border rounded-md px-3 py-1 text-xs opacity-70">VIEW PROJECT</span>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 p-5">
+                    <img class="w-full rounded-lg" src="model.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const lenis = new Lenis({ autoRaf: true });
+    </script>
+</body>
+
+</html>
