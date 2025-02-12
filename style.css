@@ -8,3 +8,12 @@ html,body{
     width: 100%;
     font-size: clamp(10px, 1vw, 15px);
 }
+
+img{
+
+    transition: all ease-in-out 0.5s;
+}
+
+img:hover{
+    scale:0.9;
+}
